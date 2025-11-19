@@ -4,10 +4,10 @@ export default function Blog() {
   return (
     <div>
       <Header />
-      <main style={{ maxWidth: '700px', margin: '0 auto', padding: '60px 24px' }}>
-        <h1 style={{ marginBottom: '40px' }}>
+      <main style={{ maxWidth: '700px', margin: '0 auto', padding: '40px 24px' }}>
+        <h2 style={{ marginBottom: '16px' }}>
           Blog
-        </h1>
+        </h2>
 
         <p style={{ color: 'var(--secondary)' }}>
           No posts yet.

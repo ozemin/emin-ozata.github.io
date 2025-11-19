@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -34,7 +34,7 @@ export default function Header() {
             style={{ color: 'var(--link)', display: 'flex', alignItems: 'center', transition: 'color 0.2s' }}
             aria-label="GitHub"
           >
-            <FiGithub size={20} />
+            <Image src="/github.svg" alt="GitHub" width={20} height={20} />
           </a>
 
           <a
@@ -44,7 +44,7 @@ export default function Header() {
             style={{ color: 'var(--link)', display: 'flex', alignItems: 'center', transition: 'color 0.2s' }}
             aria-label="LinkedIn"
           >
-            <FiLinkedin size={20} />
+            <Image src="/linkedin.svg" alt="LinkedIn" width={20} height={20} />
           </a>
 
           <a
@@ -52,7 +52,7 @@ export default function Header() {
             style={{ color: 'var(--link)', display: 'flex', alignItems: 'center', transition: 'color 0.2s' }}
             aria-label="Email"
           >
-            <FiMail size={20} />
+            <Image src="/mail.svg" alt="Email" width={20} height={20} />
           </a>
         </div>
       </nav>
